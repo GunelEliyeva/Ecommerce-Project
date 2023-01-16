@@ -1,0 +1,110 @@
+#footer {
+  background-color: #f5f5f5;
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    padding-top: 40px;
+
+    .handia {
+      width: 250px;
+      padding-left: 50px;
+
+     img{
+      width: 180px;
+      margin-bottom: 25px;
+
+     }
+      i {
+        margin-right: 30px;
+
+        &:hover {
+          color: #f29387;
+          cursor: pointer;
+          transition: transform 2s;
+        }
+      }
+    }
+
+    .help-information {
+      width: 250px;
+      .xt {
+        width: 40px;
+        font-weight: bolder;
+        border-bottom: 2px solid black;
+      }
+
+      ul {
+        li {
+          list-style: none;
+          padding: 10px 0;
+
+          &:hover {
+            color: #f29387;
+            cursor: pointer;
+            transition: transform 2s;
+          }
+        }
+      }
+    }
+    .quick-shop {
+      width: 250px;
+      .xt {
+        width: 40px;
+        font-weight: bolder;
+        border-bottom: 2px solid black;
+      }
+
+      ul {
+        li {
+          list-style: none;
+          padding: 10px 0;
+
+          &:hover {
+            color: #f29387;
+            cursor: pointer;
+            transition: transform 2s;
+          }
+        }
+      }
+    }
+    .categories {
+      width: 250px;
+      .xt {
+        width: 40px;
+        font-weight: bolder;
+        border-bottom: 2px solid black;
+      }
+
+      ul {
+        li {
+          list-style: none;
+          padding: 10px 0;
+
+          &:hover {
+            color: #f29387;
+            cursor: pointer;
+            transition: transform 2s;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+    .copyright {
+      padding-left: 50px;
+    }
+.visa-card{
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+  }
+}
