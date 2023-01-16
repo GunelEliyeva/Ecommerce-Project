@@ -1,8 +1,39 @@
 #home{
     .slide-1{
         width: 100%;
-        img{
-            width: 100%;
+        .container1{
+          
+            .section-img1{
+position: relative;
+                img{
+                    width: 100%;
+                }
+        
         }
+        .handmade-text1{
+            width: 300px;
+position: absolute;
+z-index: 1;
+
+        }
+
+        }
+        .container2{
+            .section-img2{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+        }
+        .handmade-text2{
+            width: 300px;
+position: absolute;
+z-index: 1;
+
+        }
+
+        }
+
+
     }
 }
